@@ -5,15 +5,152 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/ic_bg_start"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <FrameLayout
+            android:id="@+id/layer_button"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/edit_black"
+                android:layout_marginTop="2dp"/>
+
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="2dp"
+                android:src="@drawable/ic_layer"
+                android:scaleType="center"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/information_button"
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@color/edit_black"
+                android:layout_marginTop="2dp"/>
+
+            <TextView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="2dp"
+                android:text="i"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_tic"
+            android:layout_gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_tac"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/ic_toe"
+            android:layout_gravity="center"
+            android:layout_marginTop="34dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Mode"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/edit_black"
+            android:layout_marginTop="193dp"/>
+
+        <FrameLayout
+            android:id="@+id/single_player_button"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/edit_black"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="6dp"
+                android:text="Single Player"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/multiply_player_button"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="20dp">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@color/edit_black"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:background="@drawable/bg_button"
+                android:layout_marginStart="6dp"
+                android:text="Play With A Friend"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
