@@ -5,5 +5,6 @@
 
     <color name="edit_black">#0C0C0C</color>
     <color name="gray_color">#80CCCCCC</color>
-
+    <color name="hint_black_color">#400C0C0C</color>
+    <color name="orange_color">#D65A31</color>
 </resources>

@@ -8,4 +8,29 @@
     <string name="select_mode_text">Select Mode</string>
     <string name="single_text">Single Player</string>
     <string name="multi_text">Play With A Friend</string>
+    <string name="x_text">X</string>
+    <string name="o_text">O</string>
+
+    <string name="exit_text">exit game</string>
+    <string name="pause_text">pause game</string>
+    
+    <string name="your_turn_text">Your Move</string>
+    <string name="ai_turn_text">AI Move</string>
+    <string name="player1_turn_text">Player 1</string>
+    <string name="player2_turn_text">Player 2</string>
+
+    <string name="you_text">You - X</string>
+    <string name="ai_text">Game AI - O</string>
+    <string name="ic_you_text">You</string>
+    <string name="ic_ai_text">AI</string>
+    
+    <string name="box_1_text">box 1</string>
+    <string name="box_2_text">box 2</string>
+    <string name="box_3_text">box 3</string>
+    <string name="box_4_text">box 4</string>
+    <string name="box_5_text">box 5</string>
+    <string name="box_6_text">box 6</string>
+    <string name="box_7_text">box 7</string>
+    <string name="box_8_text">box 8</string>
+    <string name="box_9_text">box 9</string>
 </resources>
