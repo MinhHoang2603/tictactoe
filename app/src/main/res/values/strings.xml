@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">tictactoe</string>
+    <string name="layer_button_description">Layer</string>
+    <string name="information_text">i</string>
+    <string name="tic_description">tic</string>
+    <string name="tac_description">tac</string>
+    <string name="toe_description">toe</string>
+    <string name="select_mode_text">Select Mode</string>
+    <string name="single_text">Single Player</string>
+    <string name="multi_text">Play With A Friend</string>
 </resources>

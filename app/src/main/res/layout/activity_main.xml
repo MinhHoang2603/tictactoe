@@ -37,6 +37,7 @@
                 android:layout_height="36dp"
                 android:background="@drawable/bg_button"
                 android:layout_marginStart="2dp"
+                android:contentDescription="@string/layer_button_description"
                 android:src="@drawable/ic_layer"
                 android:scaleType="center"/>
 
@@ -60,7 +61,7 @@
                 android:layout_height="36dp"
                 android:background="@drawable/bg_button"
                 android:layout_marginStart="2dp"
-                android:text="i"
+                android:text="@string/information_text"
                 android:textSize="18sp"
                 android:textColor="@color/white"
                 android:gravity="center"/>
@@ -70,12 +71,14 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/tic_description"
             android:background="@drawable/ic_tic"
             android:layout_gravity="center"/>
 
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/tac_description"
             android:background="@drawable/ic_tac"
             android:layout_gravity="center"
             android:layout_marginTop="25dp"/>
@@ -83,6 +86,7 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:contentDescription="@string/toe_description"
             android:background="@drawable/ic_toe"
             android:layout_gravity="center"
             android:layout_marginTop="34dp"/>
@@ -90,7 +94,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Mode"
+            android:text="@string/select_mode_text"
             android:layout_gravity="center"
             android:textStyle="bold"
             android:textSize="16sp"
@@ -116,7 +120,7 @@
                 android:layout_height="56dp"
                 android:background="@drawable/bg_button"
                 android:layout_marginStart="6dp"
-                android:text="Single Player"
+                android:text="@string/single_text"
                 android:textSize="20sp"
                 android:textColor="@color/white"
                 android:gravity="center"/>
@@ -142,7 +146,7 @@
                 android:layout_height="56dp"
                 android:background="@drawable/bg_button"
                 android:layout_marginStart="6dp"
-                android:text="Play With A Friend"
+                android:text="@string/multi_text"
                 android:textSize="20sp"
                 android:textColor="@color/white"
                 android:gravity="center"/>
@@ -150,7 +154,5 @@
         </FrameLayout>
 
     </LinearLayout>
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
