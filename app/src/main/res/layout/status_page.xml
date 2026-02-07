@@ -24,7 +24,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/game_paused"/>
+                android:background="@drawable/game_paused"
+                android:contentDescription="@string/pause_text"/>
 
             <FrameLayout
                 android:layout_width="38dp"
@@ -44,7 +45,8 @@
                     android:background="@drawable/bg_button"
                     android:layout_marginStart="2dp"
                     android:src="@drawable/ic_continue"
-                    android:scaleType="center"/>
+                    android:scaleType="center"
+                    android:contentDescription="@string/continue_text"/>
 
             </FrameLayout>
 
@@ -59,7 +61,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/you_won"/>
+                android:background="@drawable/you_won"
+                android:contentDescription="@string/you_won_text"/>
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -85,7 +88,8 @@
                         android:background="@drawable/bg_button"
                         android:layout_marginStart="2dp"
                         android:src="@drawable/ic_return"
-                        android:scaleType="center"/>
+                        android:scaleType="center"
+                        android:contentDescription="@string/replay_text"/>
 
                 </FrameLayout>
 
@@ -107,7 +111,8 @@
                         android:layout_marginStart="2dp"
                         android:background="@drawable/bg_button"
                         android:scaleType="center"
-                        android:src="@drawable/ic_home" />
+                        android:src="@drawable/ic_home"
+                        android:contentDescription="@string/home_text"/>
 
                 </FrameLayout>
 
@@ -124,7 +129,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/you_lost"/>
+                android:background="@drawable/you_lost"
+                android:contentDescription="@string/you_lose_text"/>
 
             <LinearLayout
                 android:orientation="horizontal"
@@ -150,7 +156,8 @@
                         android:background="@drawable/bg_button"
                         android:layout_marginStart="2dp"
                         android:src="@drawable/ic_return"
-                        android:scaleType="center"/>
+                        android:scaleType="center"
+                        android:contentDescription="@string/replay_text"/>
 
                 </FrameLayout>
 
@@ -172,7 +179,8 @@
                         android:background="@drawable/bg_button"
                         android:layout_marginStart="2dp"
                         android:src="@drawable/ic_home"
-                        android:scaleType="center"/>
+                        android:scaleType="center"
+                        android:contentDescription="@string/home_text"/>
 
                 </FrameLayout>
 

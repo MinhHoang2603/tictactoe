@@ -13,6 +13,11 @@
 
     <string name="exit_text">exit game</string>
     <string name="pause_text">pause game</string>
+    <string name="continue_text">continue game</string>
+    <string name="you_won_text">you won</string>
+    <string name="you_lose_text">you lose</string>
+    <string name="replay_text">replay game</string>
+    <string name="home_text">home</string>
     
     <string name="your_turn_text">Your Move</string>
     <string name="ai_turn_text">AI Move</string>
